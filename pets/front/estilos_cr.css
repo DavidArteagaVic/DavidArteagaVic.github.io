@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)),url(img/man-2425121_1920.jpg)no-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+.form-register{
+    width: 95%;
+    max-width: 800px;
+    max-height: 900px;
+    margin: auto;
+    background:  #b5b5b986;
+    border-radius: 7px;
+}
+
+.form__titulo{
+    color: #633e07;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    display: inline-block;
+    
+}
+
+.contenedor-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+input{
+    
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid rgb(107, 107, 121);
+    
+}
+
+select{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 3px solid rgb(150, 137, 24);font-size: 16px;
+    
+}
+
+.input1-48{
+    background: #370447;
+    color: white;
+    width: 48%;
+    
+}
+
+.input-48{
+    background: rgb(245, 245, 245);
+    width: 48%;
+    
+}
+
+.btn-enviar{
+    background: rgb(106, 22, 117);
+    color: white;
+    margin: auto;
+    padding: 10px 40px;
+    font-size: 18px;
+    border-radius: 18px;
+}
+
+.btn-enviar:active{
+    transform: scale(1.05);
+}
