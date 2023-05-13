@@ -25,7 +25,7 @@
                 
             }else{
                 ?>
-                <h3>Error en la autenticacion, vuelve a ingresar tus datos :)</h3>
+                <h3>Error en la autenticacion, vuelve a ingresar tus datos </h3>
                 <?php
                 
             }

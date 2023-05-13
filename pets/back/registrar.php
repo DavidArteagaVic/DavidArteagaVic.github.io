@@ -36,7 +36,7 @@
 
             if($resultado){
                 ?>
-                    <h3>TE REGISTRASTE CORRECTAMENTE</h3>
+                    <h3>REGISTRO EXITOSO</h3>
                 <?php
             }else{
                 ?>
