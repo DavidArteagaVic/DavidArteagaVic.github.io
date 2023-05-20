@@ -43,7 +43,7 @@
                             <td>
                                 <a href='http://127.0.0.1/DavidArteagaVic.github.io/pets/back/delete_user.php?userID=".$row['id']."'>
                                     <img src='../front/icons/eliminar.png' width='30'></a> &nbsp;&nbsp;
-                                <a href='http://127.0.0.1/DavidArteagaVic.github.io/pets/back/edit_user.php?userID=".$row['id']."'>
+                                <a href='http://127.0.0.1/DavidArteagaVic.github.io/pets/back/editUser.php?userID=".$row['id']."'>
                                     <img src='../front/icons/editar.png' width='30'></a>;
                             </td>
                         </tr>";

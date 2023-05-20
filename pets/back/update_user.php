@@ -1,7 +1,7 @@
 <?php
 include("con_db.php");
-    $name=$_POST['nombres'];
-    $apellido=$_POST['apellidos'];
+    $nombres=$_POST['nombres'];
+    $apellidos=$_POST['apellidos'];
     $n_telefono=$_POST['num_telefono'];
     $tID=$_POST['cboTipoid'];
     $n_id=$_POST['num_identificacion'];
@@ -10,15 +10,16 @@ include("con_db.php");
 
     $sql="UPDATE usuario SET
     
-        nombre='$name',
-        apellido='$apellido',
-        n_telefono='$n_telefono',
-        t_id='$tID',
-        num_id='$n_id',
+        nombre='$nombres',
+        apellido='$apellidos',
+        teléfono='$n_telefono',
+        tipo_id='$tID',
+        num_ID='$n_id',
         email='$email',
-        contrasena='$contrasena'
+        password='$contrasena'
         where
-        t_id='$n_id'";
+        num_ID='$n_id'
+        ";
 
         if($conex->query($sql)===TRUE){
             echo"<script>alert('user has been updated')</script>";
