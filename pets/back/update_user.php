@@ -23,7 +23,7 @@ include("con_db.php");
 
         if($conex->query($sql)===TRUE){
             echo"<script>alert('user has been updated')</script>";
-            header("refresh:0;url=http://127.0.0.1/DavidArteagaVic.github.io/pets/back/listUsers.php");
+            header("refresh:0; url=http://127.0.0.1/DavidArteagaVic.github.io/pets/back/listUsers.php");
         }else{
             echo $conex->error;
         }

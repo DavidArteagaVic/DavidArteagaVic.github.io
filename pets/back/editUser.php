@@ -48,7 +48,7 @@
         
         <section>
             
-            <form name="login form" action="http://127.0.0.1/pets/back/update_user.php" method="post" class="form-register">
+            <form name="login form" action="http://127.0.0.1/DavidArteagaVic.github.io/pets/back/update_user.php" method="post" class="form-register">
                 <h1 class="form__titulo">Edita tu cuenta!</h1>
                 <div class="contenedor-inputs">
 <!-- si no quiero modificar un campo, en el input le coloco ...disabled="true"-->
@@ -60,14 +60,14 @@
                         
                     </select>
                     <input type="text" name="apellidos"  value='<?php echo $apellidos;?>' class="input1-48"  required>
-                    <input type="text" name="num_identificacion"  value='<?php echo $n_id;?>' class="input1-48"  required>
+                    <input type="text" name="num_identificacion"  value='<?php echo $n_id;?>'  class="input1-48" required >
                     
                     
                     <input type="text" name="num_telefono" value='<?php echo $n_telefono;?>'  class="input1-48"  required>
-                    <input type="email" name="email" value='<?php echo $email;?>' class="input1-48"  required>
+                    <input type="email" name="email" value='<?php echo $email;?>'  class="input1-48"  required>
                     <input type="password" name="password" value='<?php echo $contrasena;?>'  class="input1-48"  required>
                     
-                    <input type="submit" value="Registrar" name="register" class="btn-enviar">
+                    <input type="submit" value="Actualizar" name="register" class="btn-enviar">
                     
                 </div><br>
                 
